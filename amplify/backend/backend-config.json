@@ -1,27 +1,14 @@
 {
 	"auth": {
-		"amplifyandroidf309a7b7": {
+		"cognitoac62801c": {
 			"service": "Cognito",
-			"providerPlugin": "awscloudformation",
-			"dependsOn": []
+			"providerPlugin": "awscloudformation"
 		}
 	},
-	"api": {
-		"amplifyandroid": {
-			"service": "AppSync",
-			"providerPlugin": "awscloudformation",
-			"output": {
-				"authConfig": {
-					"additionalAuthenticationProviders": [],
-					"defaultAuthentication": {
-						"authenticationType": "API_KEY",
-						"apiKeyConfig": {
-							"description": "",
-							"apiKeyExpirationDays": 180
-						}
-					}
-				}
-			}
+	"analytics": {
+		"myamplifyproject": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
 		}
 	}
 }
