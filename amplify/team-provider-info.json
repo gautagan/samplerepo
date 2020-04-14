@@ -1,20 +1,18 @@
 {
-    "dev": {
+    "androiddev": {
         "awscloudformation": {
-            "AuthRoleName": "myamplifyproject-dev-20190621123317-authRole",
-            "UnauthRoleArn": "arn:aws:iam::071924539950:role/myamplifyproject-dev-20190621123317-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::071924539950:role/myamplifyproject-dev-20190621123317-authRole",
+            "AuthRoleName": "amplifyandroid-androiddev-20191116154614-authRole",
+            "UnauthRoleArn": "arn:aws:iam::071924539950:role/amplifyandroid-androiddev-20191116154614-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::071924539950:role/amplifyandroid-androiddev-20191116154614-authRole",
             "Region": "us-east-1",
-            "DeploymentBucketName": "myamplifyproject-dev-20190621123317-deployment",
-            "UnauthRoleName": "myamplifyproject-dev-20190621123317-unauthRole",
-            "StackName": "myamplifyproject-dev-20190621123317",
-            "StackId": "arn:aws:cloudformation:us-east-1:071924539950:stack/myamplifyproject-dev-20190621123317/460d2610-9442-11e9-97d1-0e0d0d1329e4"
+            "DeploymentBucketName": "amplifyandroid-androiddev-20191116154614-deployment",
+            "UnauthRoleName": "amplifyandroid-androiddev-20191116154614-unauthRole",
+            "StackName": "amplifyandroid-androiddev-20191116154614",
+            "StackId": "arn:aws:cloudformation:us-east-1:071924539950:stack/amplifyandroid-androiddev-20191116154614/4710d450-08cb-11ea-94be-0e763951b664"
         },
         "categories": {
             "auth": {
-                "cognitoac62801c": {
-                    "hostedUIProviderCreds": "[]"
-                }
+                "amplifyandroidf309a7b7": {}
             }
         }
     }

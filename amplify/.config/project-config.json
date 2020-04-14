@@ -1,14 +1,10 @@
 {
-    "projectName": "myAmplifyProject",
+    "projectName": "AmplifyAndroid",
     "version": "2.0",
-    "frontend": "javascript",
-    "javascript": {
-        "framework": "react-native",
+    "frontend": "android",
+    "android": {
         "config": {
-            "SourceDir": "/",
-            "DistributionDir": "/",
-            "BuildCommand": "npm run-script build",
-            "StartCommand": "npm run-script start"
+            "ResDir": "app/src/main/res"
         }
     },
     "providers": [
