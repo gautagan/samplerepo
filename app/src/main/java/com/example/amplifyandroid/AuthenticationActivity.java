@@ -80,7 +80,7 @@ public class AuthenticationActivity extends AppCompatActivity {
         Map< String,String> hm = new HashMap< String,String>();
         hm.put("key","value");
         Log.v("sample","Hello!");
-        AWSMobileClient.getInstance().signIn("gognambiar@gmail.com", "123Pword123!", hm, new Callback<SignInResult>() {
+        AWSMobileClient.getInstance().signIn("asdasdasd", "asdasdasdsd!", hm, new Callback<SignInResult>() {
             @Override
             public void onResult(final SignInResult signInResult) {
                 runOnUiThread(new Runnable() {
